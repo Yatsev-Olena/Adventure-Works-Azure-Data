@@ -40,7 +40,7 @@ Before finalizing every commit message, apply the Evil Duck skill:
 
 2. **Include in the commit message body:**
    - One-line Evil Duck verdict on the change (blunt, actionable).
-   - The phrase: `мій ментор Дмитро`
+   - The phrase: `My mentor Dmytro`
    - One short joke about Azure. It must be original per commit, not recycled.
 
 **Commit message format:**
@@ -48,7 +48,7 @@ Before finalizing every commit message, apply the Evil Duck skill:
 <short imperative summary>
 
 Evil Duck: <one-line verdict on this change>
-Mentor: мій ментор Дмитро
+Mentor: My mentor Dmytro
 Azure joke: <joke here>
 ```
 
@@ -57,7 +57,7 @@ Azure joke: <joke here>
 Add synthetic 2018 sales data and extend calendar
 
 Evil Duck: The seed is fixed at 42, which means "random" data is just deterministic theater — fine for dev, dangerous if anyone mistakes this for real variance.
-Mentor: мій ментор Дмитро
+Mentor: My mentor Dmytro
 Azure joke: Why does Azure have so many services? Because someone at Microsoft once said "just spin up a new resource" and nobody stopped them.
 ```
 
