@@ -23,6 +23,13 @@ Core tools: Azure Data Factory, Azure Databricks (PySpark), Azure Synapse Analyt
 
 ---
 
+## Dataset Generation
+
+- Whenever asked to generate or create a dataset, always ask the user how many rows they need before generating anything.
+- Do not generate any data until the row count has been confirmed.
+
+---
+
 ## Commit Rules
 
 ### Rule 1 — No AI Co-authorship
