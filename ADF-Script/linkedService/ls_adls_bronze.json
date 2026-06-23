@@ -1,0 +1,12 @@
+{
+    "name": "ls_adls_bronze",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "type": "AzureBlobStorage",
+        "description": "Data lake storage. Auth via the factory's system-assigned managed identity (no keys or connection strings stored).",
+        "typeProperties": {
+            "serviceEndpoint": "https://stadventurewksicop2a.blob.core.windows.net/",
+            "accountKind": "StorageV2"
+        }
+    }
+}

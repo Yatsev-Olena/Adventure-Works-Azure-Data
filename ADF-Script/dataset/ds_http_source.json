@@ -1,0 +1,30 @@
+{
+    "name": "ds_http_source",
+    "type": "Microsoft.DataFactory/factories/datasets",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_http_github",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "p_rel_url": {
+                "type": "string"
+            }
+        },
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation",
+                "relativeUrl": {
+                    "value": "@dataset().p_rel_url",
+                    "type": "Expression"
+                }
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "quoteChar": "\"",
+            "firstRowAsHeader": true
+        },
+        "schema": []
+    }
+}
